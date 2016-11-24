@@ -1,0 +1,16 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile (
+            "org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE",
+            project(":manager") ,
+    )
+
+    testCompile(
+            "org.springframework.boot:spring-boot-starter-test:1.4.2.RELEASE"
+    )
+
+    runtime(
+            "org.hsqldb:hsqldb:2.3.4"
+    )
+}

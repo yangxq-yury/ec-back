@@ -1,0 +1,9 @@
+rootProject.name = 'ecommerce'
+include 'domain'
+include 'common'
+include 'util'
+include 'dao'
+include 'service'
+include 'rest'
+include 'manager'
+
