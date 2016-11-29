@@ -45,20 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-build
-build
-build
-build
-build
-build
+
 build
 .idea
-util/build
-build
-build
-build
-build
-build
-build
 .gradle
-.idea
+*.iml
