@@ -1,8 +1,6 @@
 package com.ferriswheel.ecommerce.rest;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -11,9 +9,10 @@ import org.springframework.context.annotation.Configuration;
  */
 
 
-@SpringBootApplication
-public class Application {
+@Configuration
+@ComponentScan( basePackages = "com.ferriswheel.ecommerce")
+public class AppConfig {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(AppConfig.class, args);
     }
 }
