@@ -1,4 +1,4 @@
-package com.ferriswheel.ecommerce.rest.restController.test;
+package com.ferriswheel.ecommerce.rest;
 
 /**
  * Created by QQ on 2016/11/23.

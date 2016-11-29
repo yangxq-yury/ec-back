@@ -1,12 +1,3 @@
-buildscript {
-    repositories {
-        maven{ url 'http://localhost:8081/repository/maven-central/' }
-    }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.2.RELEASE")
-    }
-}
-
 subprojects {
 
     group 'com.ferriswheel.ecommerce'
@@ -60,8 +51,9 @@ subprojects {
                 "org.springframework:spring-test:${springVersion}",
 
                 "org.springframework:spring-framework-bom:${springVersion}",
+
                 "commons-codec:commons-codec:1.10",
-                "commons-dbcp:commons-dbcp:1.4",
+
                 "commons-io:commons-io:2.4",
                 "commons-fileupload:commons-fileupload:1.3.1",
                 "commons-beanutils:commons-beanutils:1.9.2",
@@ -97,7 +89,7 @@ subprojects {
                 "org.aspectj:aspectjweaver:1.8.5",
                 "javassist:javassist:3.12.1.GA",
 
-
+//                "commons-dbcp:commons-dbcp:1.4",
 //                "log4j:log4j:1.2.17",
 //                "org.slf4j:slf4j-log4j12:1.7.21",
 
